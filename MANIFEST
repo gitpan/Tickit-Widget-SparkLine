@@ -1,0 +1,14 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+examples/sparkline.pl
+lib/Tickit/Widget/SparkLine.pm
+t/00-pod.t
+t/00-use.t
+t/methods.t
+t/sparkline.t
