@@ -3,15 +3,15 @@ abstract: "Simple 'sparkline' widget implementation"
 author:
   - 'Tom Molesworth <cpan@entitymodel.com>'
 build_requires:
-  Capture::Tiny: 0
+  IO::Handle: 0
+  IPC::Open3: 0
   Test::CheckDeps: 0.006
   Test::More: 0.98
-  blib: 0
   perl: 5.010001
 configure_requires:
   ExtUtils::MakeMaker: 6.48
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300036, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,4 +22,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Tickit-Widget-SparkLine
   homepage: http://search.cpan.org/dist/Tickit-Widget-SparkLine/
-version: 0.100
+version: 0.101

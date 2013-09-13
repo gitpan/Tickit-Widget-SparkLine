@@ -18,18 +18,17 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "Tickit-Widget-SparkLine",
   "EXE_FILES" => [],
   "LICENSE" => "perl",
-  "MIN_PERL_VERSION" => "5.010001",
   "NAME" => "Tickit::Widget::SparkLine",
   "PREREQ_PM" => {
     "Tickit" => "0.33"
   },
   "TEST_REQUIRES" => {
-    "Capture::Tiny" => 0,
+    "IO::Handle" => 0,
+    "IPC::Open3" => 0,
     "Test::CheckDeps" => "0.006",
-    "Test::More" => "0.98",
-    "blib" => 0
+    "Test::More" => "0.98"
   },
-  "VERSION" => "0.100",
+  "VERSION" => "0.101",
   "test" => {
     "TESTS" => "t/*.t"
   }

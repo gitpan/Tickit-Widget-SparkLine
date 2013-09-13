@@ -8,7 +8,7 @@ use Scalar::Util qw(reftype);
 use List::Util qw(max sum min);
 use Tickit::Utils qw(textwidth);
 
-our $VERSION = '0.100';
+our $VERSION = '0.101';
 
 =head1 NAME
 
@@ -16,7 +16,7 @@ Tickit::Widget::SparkLine - minimal graph implementation for L<Tickit>
 
 =head1 VERSION
 
-version 0.100
+version 0.101
 
 =head1 SYNOPSIS
 
@@ -29,6 +29,12 @@ version 0.100
 =head1 DESCRIPTION
 
 Generates a mini ("sparkline") graph.
+
+=begin HTML
+
+<p><img src="http://tickit.perlsite.co.uk/cpan-screenshot/tickit-widget-sparkline1.gif" alt="Sparkline widget in action" width="350" height="192"></p>
+
+=end HTML
 
 =cut
 
@@ -361,4 +367,4 @@ Tom Molesworth <cpan@entitymodel.com>
 
 =head1 LICENSE
 
-Same license and copyright as L<Tickit>.
+Copyright Tom Molesworth 2011-2013. Licensed under the same terms as Perl itself.

@@ -10,6 +10,7 @@ SIGNATURE
 cpanfile
 dist.ini
 examples/resample.pl
+examples/sine.pl
 examples/sparkline.pl
 lib/Tickit/Widget/SparkLine.pm
 lib/Tickit/Widget/SparkLine.pod

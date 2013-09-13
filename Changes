@@ -1,3 +1,12 @@
+0.101     2013-09-13 23:22:40 Europe/London
+	No new features.
+
+	Examples:
+	* Provide simple animation example (sin/cos/tan waves)
+
+	Documentation:
+	* Included animated GIF to demonstrate above example
+
 0.100     2013-09-03 22:14:27 Europe/London
 	Features:
 	* Scale to fit when datapoints won't all fit in the window
