@@ -14,7 +14,7 @@ Tickit::Widget::SparkLine - minimal graph implementation for L<Tickit>
 
 =head1 VERSION
 
-version 0.101
+version 0.102
 
 =head1 SYNOPSIS
 
@@ -33,6 +33,12 @@ Generates a mini ("sparkline") graph.
 <p><img src="http://tickit.perlsite.co.uk/cpan-screenshot/tickit-widget-sparkline1.gif" alt="Sparkline widget in action" width="350" height="192"></p>
 
 =end HTML
+
+=head1 STYLE
+
+Set the base style background/foreground to determine the graph colours.
+Note that reverse video and bold don't work very well on some terminals,
+since the background+foreground colours won't match.
 
 =head1 METHODS
 
