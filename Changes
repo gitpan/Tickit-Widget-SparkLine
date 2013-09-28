@@ -1,3 +1,9 @@
+0.103     2013-09-28 20:09:02 Europe/London
+	No new features.
+
+	Bug fixes:
+	* Updated Dist::Zilla::Plugin::Test::Compile for RT88783
+
 0.102     2013-09-14 20:28:39 Europe/London
 	No new features.
 

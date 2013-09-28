@@ -3,12 +3,8 @@ package Tickit::Widget::SparkLine;
 use strict;
 use warnings;
 use parent qw(Tickit::Widget);
-use POSIX qw(floor);
-use Scalar::Util qw(reftype);
-use List::Util qw(max sum min);
-use Tickit::Utils qw(textwidth);
 
-our $VERSION = '0.102';
+our $VERSION = '0.103';
 
 =head1 NAME
 
@@ -16,7 +12,7 @@ Tickit::Widget::SparkLine - minimal graph implementation for L<Tickit>
 
 =head1 VERSION
 
-version 0.102
+version 0.103
 
 =head1 SYNOPSIS
 
@@ -44,6 +40,10 @@ since the background+foreground colours won't match.
 
 =cut
 
+use POSIX qw(floor);
+use Scalar::Util qw(reftype);
+use List::Util qw(max sum min);
+use Tickit::Utils qw(textwidth);
 use Tickit::Style;
 
 BEGIN {

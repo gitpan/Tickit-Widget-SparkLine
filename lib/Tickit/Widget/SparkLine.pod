@@ -14,7 +14,7 @@ Tickit::Widget::SparkLine - minimal graph implementation for L<Tickit>
 
 =head1 VERSION
 
-version 0.102
+version 0.103
 
 =head1 SYNOPSIS
 
