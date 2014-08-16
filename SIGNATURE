@@ -14,41 +14,41 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 704bd7ae7a49e9ada1a23782700d05b54e1054fc Changes
+SHA1 0c5f594d081bca3aa06c5afa38df7b53684079de Changes
 SHA1 8c3d84eba847aeea6f71765e46a776ab221b41f1 INSTALL
-SHA1 fcecd203a27c044eb4138dc70de012aa384a2234 LICENSE
-SHA1 6717c3c82954db376e3afa309a9ae29a7ddaf18b MANIFEST
-SHA1 fa3a81e2b2efe066408bc6f5dbca98d6c6dd4ee0 META.json
-SHA1 7a0069216345005dea4b3d5fb5b7e81bfe7d803b META.yml
-SHA1 08a8b54d2a675ebfa72fb3192a0738d8791285cd Makefile.PL
-SHA1 fc27c4491ebd65925f266b7a71bfc479338d1534 README
-SHA1 624b38d201df7a1c5559cfb0838dcdfda1859123 cpanfile
-SHA1 f3ef5d7a7c048c25efae440c92f323828882e7ef dist.ini
+SHA1 8a4fdad1020dbfd5154c3f042385ce86e2eefea2 LICENSE
+SHA1 1748708b3dad1ce5f78af5c1e69d8c67b85fc5fd MANIFEST
+SHA1 9ec4b3f5c51fdfa5603596936e17c0f41e77c17e META.json
+SHA1 235fa497d171100a435fd808e88a68e605cfe785 META.yml
+SHA1 dcb59aa638cf6923cdc021a1f961a65dfe0026d0 Makefile.PL
+SHA1 4f8bcfdc779c8fb24ec71ef9e046af9b0c3a424d README
+SHA1 46da63ae3787788ff155a45bb6a855d0071a4ff3 cpanfile
+SHA1 e3ac2e2e971e24b2b8c9243873c8e59c8ca6cd1e dist.ini
 SHA1 16f48d656f9293fbba695240639ec8fc28af65f2 examples/resample.pl
-SHA1 47528806a2d00933166c13c9370bb3c9b7839ebf examples/sine.pl
+SHA1 8727d1618df9a57fde73f675a38fd1a1ea65ad3b examples/sine.pl
 SHA1 fe1054e0db35b970e01e4775f53b4ca1670a2246 examples/sparkline.pl
-SHA1 52d1925abf240d515b6eb5379c535617ddfa8a65 lib/Tickit/Widget/SparkLine.pm
-SHA1 0932cd80e7a7249962cd3dcf8aa92db369d8ed05 lib/Tickit/Widget/SparkLine.pod
-SHA1 100d9573c357418c5e5c17c996e18559f90d3d46 t/00-check-deps.t
-SHA1 a5b55c3e5c36533057bed591085b581e6a7ba051 t/00-compile.t
+SHA1 d093440729248ef264acae723c31492181130686 lib/Tickit/Widget/SparkLine.pm
+SHA1 8db73a81b580126e904da8f211773e55b3a568c8 lib/Tickit/Widget/SparkLine.pod
+SHA1 985d9ded8d8ed7e344a09e52b1402e878e91da28 t/00-check-deps.t
+SHA1 a4e1216abe14e6fa9fd19e1cc7aa6173ef6fb822 t/00-compile.t
+SHA1 0cabf48f373b63a4cf29081bd13a47627fc2fbb8 t/000-report-versions-tiny.t
 SHA1 fab9b7f3643e1863d2f6ebf7bbc6840ea79fe96a t/methods.t
 SHA1 321d682e8cd1a8b7063ad19192aff4a9d32f8cef t/resample.t
 SHA1 a4c6eebc7aa5e3847ee7d2871047ec096b16f280 t/sparkline.t
+SHA1 f242e380d897f0430a668ea3f2938df75c0bef55 xt/author/test-eol.t
 SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
 SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
-SHA1 4c599e8a4ebb7a899f90ee3c235a64fdbc7e2c06 xt/release/pod-coverage.t
-SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
-SHA1 fd1fa776fca35fc8f1bdd24ee3fbaa1eca755a44 xt/release/synopsis.t
+SHA1 296928dbbcaffd1514ccc9b77a1e6e03cfe9b068 xt/release/pod-syntax.t
+SHA1 34513f89a70b96f6412fe2ef0ad4d475e8cac66c xt/release/synopsis.t
 SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
-SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJSRylPAAoJEFKElMNpjtyD7bgIAJiTxFoadh9zlr+R+50MABu3
-UWSLU56BX4yOdzKx0N+pMN917xRCDOzwpCNW4WOHZwfrRK2myu7sUkKNjjAaE4qy
-SEIikdZjA5kcUnjy56Fxw0lLWfJMWX/2SOuWfodmtDMQgYFnM79grTDoHLwATDpV
-3xTJAZvqwrfaQA/hq1/pFJ39YV0NDAo91c6pB5+DBqaEpeHifn0b3L2skq1FxuHQ
-E31E94oSzfvBiJpTBTdm9MIJg3o5wyXYFc6NiEd/CVOsUpnDBofEPMo4HrpNVPcg
-oo54zkRFuuhDVVj6Cg7+mQbZadxJpmAuXsH+mGK2oOHfGxN+4qsBeE38NzF9Dcw=
-=r3JX
+iQEcBAEBAgAGBQJT7sEDAAoJEFKElMNpjtyD9K8H/2Gh/zQ34YU8eKqjeguAwvZ0
+Hg+9RATOv1my3JBn/VchnmHN1rCBu62NFwO5i+OvxsXAvwD0XiiAFitzRwlWhZnb
+SLsJdxkSLAivMMIlSVZzIa4riTgUs95DxVJLyTEz9GZiqnDLnnLTTd8eonzPJ9/N
+ZV5PaXMWkt6RkoeiCt2gCm6D1H396fhPX4UstyxKPL3bEfgdo2Mj1JIsag4xSYqL
+Prpha4ITij0rbxxwpeAGIJFECO+hzTS9rJrjIDLICo8uMIFCQiOZ2kIYp5kKFU3h
+3mjDpY8gKymFBSdFpM27qt7UJMfATOzqLX3+u9buxeKpXKSsFhIWu5twx6JJ9K4=
+=2bHV
 -----END PGP SIGNATURE-----
